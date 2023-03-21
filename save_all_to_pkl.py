@@ -15,7 +15,7 @@ import pickle
 import os
 
 # Puede que tengas que modificar este path. 
-data_folder = 'Documents/MovellaBiomechanicsChallenge/data/'
+data_folder = 'C:/Users/Carlota/Documents/MovellaBiomechanicsChallenge/data/'
 
 for folder_name in os.listdir(data_folder):
     mvnx_folder = data_folder + folder_name + '/' + 'MVNX/'
